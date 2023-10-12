@@ -1,0 +1,49 @@
+section#knowladge {
+	padding: 35px;
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-block: 20px;
+  }
+
+	.card-body {
+		padding: 10px;
+	}
+
+  .knowladge-btn {
+    display: flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 28px;
+    background: $blue-sea;
+    color: $netural-color-00;
+    font-family: $Gilroy-Light;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+
+  h3 {
+    color: $netural-color-100;
+    font-family: $Gilroy-Bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  p {
+    overflow: hidden;
+    color: $netural-color-60;
+    font-family: $Gilroy-Bold;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+		padding-top: 8px; 
+  }
+}

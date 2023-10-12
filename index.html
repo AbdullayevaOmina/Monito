@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monito</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="/styles/css/minified/main.min.css" />
+    <!-- font -->
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ============ Loader ============ -->
+    <div class="loader">
+      <div class="spinner"></div>
+    </div>
+
+    <!-- ============ Header ============ -->
+    <header id="main-header">
+      <nav class="container">
+        <a href="#">
+          <img src="/Monito-images/icons/logo.png" alt="Astro Gaming" />
+        </a>
+
+        <ul class="main-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+        <div class="nav-search">
+          <i class="fa-solid fa-magnifying-glass" style="color: #424a4f"></i>
+          <form action="/action_page">
+            <input
+              type="text"
+              placeholder="Search something here!"
+              name="search"
+            />
+          </form>
+        </div>
+
+        <a class="nav-link btn" href="#">Join the community</a>
+
+        <ul>
+          <li class="dropdown">
+            <a href="#" class="dropbth">Eng</a>
+            <label for="lang"
+              ><i class="fa-solid fa-chevron-down" style="color: #083a59"></i
+            ></label>
+            <input type="checkbox" name="contact" id="lang" hidden />
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Uz</a></li>
+                <li><a href="#">Ru</a></li>
+                <li><a href="#">Eng</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+
+        <div class="s-dropdown">
+          <label for="dropdown-menu-toggler">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <input type="checkbox" id="dropdown-menu-toggler" hidden />
+          <div class="s-dropdown-menu">
+            <ul class="dropdown-menu-items">
+              <li class="dropdown-menu-item"><a href="#">Home</a></li>
+              <li class="dropdown-menu-item"><a href="#">Category</a></li>
+              <li class="dropdown-menu-item"><a href="#">About</a></li>
+              <li class="dropdown-menu-item"><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-search">
+              <i
+                class="fa-solid fa-magnifying-glass"
+                style="color: #424a4f"
+              ></i>
+              <form action="/action_page">
+                <input
+                  type="text"
+                  placeholder="Search something here!"
+                  name="search"
+                />
+              </form>
+            </div>
+
+            <a class="nav-link btn" href="#">Join the community</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ============ Hero ============ -->
+    <section id="hero">
+      <div class="container">
+        <div class="left">
+          <h1>One More Friend</h1>
+          <h3>Thousands more fun!</h3>
+          <p>
+            Having a pet means you have more joy, a new friend, a happy person
+            who will always be with you to have fun. We have 200+ different pets
+            that can meet your needs!
+          </p>
+          <span>
+            <a href="#" class="btn temp-btn"
+              >View Intro <i class="fa-regular fa-circle-play"></i
+            ></a>
+            <a href="#" class="btn">Explore Now</a>
+          </span>
+        </div>
+        <img class="showcase-img" src="/Monito-images/Showcase.png" alt="" />
+
+        <!-- <img class="img-1" src="/Monito-images/Shapes/img-1.png" alt="" /> -->
+        <img class="img-2" src="/Monito-images/Shapes/img-2.png" alt="" />
+        <img class="img-3" src="/Monito-images/Shapes/img-3.png" alt="" />
+        <img class="img-4" src="/Monito-images/Shapes/img-4.png" alt="" />
+        <img class="img-5" src="/Monito-images/Shapes/img-5.png" alt="" />
+        <img class="img-6" src="/Monito-images/Shapes/img-6.png" alt="" />
+        <img
+          class="img-rec1"
+          src="/Monito-images/Shapes/Rectangle 1 (1).png"
+          alt=""
+        />
+        <img
+          class="img-rec"
+          src="/Monito-images/Shapes/Rectangle 2.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- ============ New ============ -->
+    <section id="new">
+      <div class="birnima">
+        <div>
+          <p>Whats new?</p>
+          <h2>Take a look at some of our pets</h2>
+        </div>
+
+        <a class="btn temp-btn" href="#">
+          View more <i class="fa-solid fa-chevron-right"></i
+        ></a>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Puppy/puppy-1.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <p>MO231 - Pomeranian White</p>
+            <span>Gene: Male</span> *
+            <span>Age: 02 Month</span>
+            <p>6.900.000 VND</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Puppy/puppy-2.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <h3>MO502 - Poodle Tiny Yellow</h3>
+            <span>Gene: Female</span> *
+            <span>Age: 02 Month</span>
+            <p>3.900.000 VND</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Puppy/puppy-3.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <p>MO231 - Pomeranian White</p>
+            <span>Gene: Male</span> *
+            <span>Age: 02 Month</span>
+            <p>6.900.000 VND</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Puppy/puppy-4.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <p>MO231 - Pomeranian White</p>
+            <span>Gene: Male</span> *
+            <span>Age: 02 Month</span>
+            <p>6.900.000 VND</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Puppy/puppy-5.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <p>MO231 - Pomeranian White</p>
+            <span>Gene: Male</span> *
+            <span>Age: 02 Month</span>
+            <p>6.900.000 VND</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Puppy/puppy-6.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <p>MO231 - Pomeranian White</p>
+            <span>Gene: Male</span> *
+            <span>Age: 02 Month</span>
+            <p>6.900.000 VND</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Puppy/puppy-7.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <p>MO231 - Pomeranian White</p>
+            <span>Gene: Male</span> *
+            <span>Age: 02 Month</span>
+            <p>6.900.000 VND</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Puppy/puppy-8.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <p>MO231 - Pomeranian White</p>
+            <span>Gene: Male</span> *
+            <span>Age: 02 Month</span>
+            <p>6.900.000 VND</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Explore ============ -->
+    <section id="explore">
+      <div class="container">
+        <img
+          class="img2"
+          src="/Monito-images/explore/explore-bg-img2.png"
+          alt=""
+        />
+        <img
+          class="img1"
+          src="/Monito-images/explore/explore-bg-img1.png"
+          alt=""
+        />
+
+        <img
+          class="explore-img"
+          src="/Monito-images/explore/explore.png"
+          alt=""
+        />
+
+        <div class="right">
+          <h1>One More Friend</h1>
+          <h3>Thousands more fun!</h3>
+          <p>
+            Having a pet means you have more joy, a new friend, a happy person
+            who will always be with you to have fun. We have 200+ different pets
+            that can meet your needs!
+          </p>
+          <span>
+            <a href="#" class="btn temp-btn"
+              >View Intro <i class="fa-regular fa-circle-play"></i
+            ></a>
+            <a href="#" class="btn">Explore Now</a>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Products ============ -->
+    <section id="products">
+      <div class="birnima">
+        <div>
+          <p>Hard to choose right products for your pets?</p>
+          <h2>Our Products</h2>
+        </div>
+        <a class="btn temp-btn" href="#"
+          >View more <i class="fa-solid fa-chevron-right"></i
+        ></a>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Products/product-8.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <h3>Reflex Plus Adult Cat Food Salmon</h3>
+            <span>Product: Dog food * Size <b>385gm</b></span>
+            <p>140.000 VND</p>
+            <div class="product-card-btn">
+              <img src="/Monito-images/Products/Frame (2).svg" alt="" />
+              <span class="dot"></span>
+              <a href="#">Free Toy & Free Shaker</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Products/product-1.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <h3>Reflex Plus Adult Cat Food Salmon</h3>
+            <span>Product: Dog food * Size <b>385gm</b></span>
+            <p>140.000 VND</p>
+            <div class="product-card-btn">
+              <img src="/Monito-images/Products/Frame (2).svg" alt="" />
+              <span class="dot"></span>
+              <a href="#">Free Toy & Free Shaker</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Products/product-2.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <h3>Reflex Plus Adult Cat Food Salmon</h3>
+            <span>Product: Dog food * Size <b>385gm</b></span>
+            <p>140.000 VND</p>
+            <div class="product-card-btn">
+              <img src="/Monito-images/Products/Frame (2).svg" alt="" />
+              <span class="dot"></span>
+              <a href="#">Free Toy & Free Shaker</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Products/product-3.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <h3>Reflex Plus Adult Cat Food Salmon</h3>
+            <span>Product: Dog food * Size <b>385gm</b></span>
+            <p>140.000 VND</p>
+            <div class="product-card-btn">
+              <img src="/Monito-images/Products/Frame (2).svg" alt="" />
+              <span class="dot"></span>
+              <a href="#">Free Toy & Free Shaker</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Products/product-4.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <h3>Reflex Plus Adult Cat Food Salmon</h3>
+            <span>Product: Dog food * Size <b>385gm</b></span>
+            <p>140.000 VND</p>
+            <div class="product-card-btn">
+              <img src="/Monito-images/Products/Frame (2).svg" alt="" />
+              <span class="dot"></span>
+              <a href="#">Free Toy & Free Shaker</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Products/product-5.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <h3>Reflex Plus Adult Cat Food Salmon</h3>
+            <span>Product: Dog food * Size <b>385gm</b></span>
+            <p>140.000 VND</p>
+            <div class="product-card-btn">
+              <img src="/Monito-images/Products/Frame (2).svg" alt="" />
+              <span class="dot"></span>
+              <a href="#">Free Toy & Free Shaker</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Products/product-6.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <h3>Reflex Plus Adult Cat Food Salmon</h3>
+            <span>Product: Dog food * Size <b>385gm</b></span>
+            <p>140.000 VND</p>
+            <div class="product-card-btn">
+              <img src="/Monito-images/Products/Frame (2).svg" alt="" />
+              <span class="dot"></span>
+              <a href="#">Free Toy & Free Shaker</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="img">
+            <img src="/Monito-images/Products/product-7.jpg" alt="" />
+          </div>
+          <div class="card-body">
+            <h3>Reflex Plus Adult Cat Food Salmon</h3>
+            <span>Product: Dog food * Size <b>385gm</b></span>
+            <p>140.000 VND</p>
+            <div class="product-card-btn">
+              <img src="/Monito-images/Products/Frame (2).svg" alt="" />
+              <span class="dot"></span>
+              <a href="#">Free Toy & Free Shaker</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Partners ============ -->
+    <section id="partners">
+      <div class="birnima">
+        <div>
+          <p>Proud to be part of</p>
+          <h2>Pet Sellers</h2>
+        </div>
+        <a class="btn temp-btn" href="#"
+          >View all our sellers <i class="fa-solid fa-chevron-right"></i
+        ></a>
+      </div>
+      <div class="partners-showcase container">
+        <img src="/Monito-images/Partners/partner-1.png" alt="" />
+        <img src="/Monito-images/Partners/partner-2.png" alt="" />
+        <img src="/Monito-images/Partners/partner-3.png" alt="" />
+        <img src="/Monito-images/Partners/partner-4.png" alt="" />
+        <img src="/Monito-images/Partners/partner-5.png" alt="" />
+        <img src="/Monito-images/Partners/partner-6.png" alt="" />
+        <img src="/Monito-images/Partners/partner-7.png" alt="" />
+      </div>
+    </section>
+
+    <!-- ============ Adopation ============ -->
+    <section id="adoptation" class="container">
+      <img class="img-1" src="/Monito-images/adoptation/img-1.png" alt="" />
+      <img class="img-2" src="/Monito-images/adoptation/img-2.png" alt="" />
+
+      <div class="left">
+        <h1>
+          Adoption <img src="/Monito-images/adoptation/Vector.png" alt="..." />
+        </h1>
+        <h2>We need help. so do they.</h2>
+        <p>
+          Adopt a pet and give it a home, <br />
+          it will be love you back unconditionally.
+        </p>
+        <span>
+          <a href="#" class="btn temp-btn"
+            >View Intro <i class="fa-regular fa-circle-play"></i
+          ></a>
+          <a href="#" class="btn">Explore Now</a>
+        </span>
+      </div>
+      <img
+        class="adoptation-img"
+        src="/Monito-images/adoptation/adoption.png"
+        alt=""
+      />
+    </section>
+
+    <!-- ============ Knowledges ============ -->
+    <section id="knowladge">
+      <div class="birnima">
+        <div>
+          <p>You already know ?</p>
+          <h2>Useful pet knowledge</h2>
+        </div>
+        <a class="btn temp-btn" href="#"
+          >View more <i class="fa-solid fa-chevron-right"></i
+        ></a>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <img src="/Monito-images/knowledge/knowledge-1.jpg" alt="img" />
+          <a class="knowladge-btn" href="#">Pet knowledge</a>
+          <div class="card-body">
+            <h3>What is a Pomeranian? How to <br />Identify Pomeranian Dogs</h3>
+            <p>
+              The Pomeranian, also known as the Pomeranian (Pom dog), is always
+              in the top of the cutest pets. Not only that, the small, lovely,
+              smart, friendly, and skillful circus dog breed.
+            </p>
+          </div>
+        </div>
+
+        <div class="card none">
+          <img src="/Monito-images/knowledge/knowledge-2.jpg" alt="img" />
+          <a class="knowladge-btn" href="#">Pet knowledge</a>
+          <div class="card-body">
+            <h3>Dog Diet You Need To Know</h3>
+            <p>
+              The Pomeranian, also known as the Pomeranian (Pom dog), is always
+              in the top of the cutest pets. Not only that, the small, lovely,
+              smart, friendly, and skillful circus dog breed.
+            </p>
+          </div>
+        </div>
+
+        <div class="card none">
+          <img src="/Monito-images/knowledge/knowledge-3.jpg" alt="img" />
+          <a class="knowladge-btn" href="#">Pet knowledge</a>
+          <div class="card-body">
+            <h3>
+              Why Dogs Bite and Destroy Furniture and How to Prevent It
+              Effectively
+            </h3>
+            <p>
+              Dog bites are common during development. However, no one wants to
+              see their furniture or important items being bitten by a dog.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Footer ============ -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-registr">
+          <p>Register now so you don't miss our programs</p>
+          <div class="footer-input">
+            <form action="/newsletter">
+              <input type="text" placeholder="Enter your Email" />
+            </form>
+            <a class="btn" href="#">Subcribe Now</a>
+          </div>
+        </div>
+
+        <div class="footer-list">
+          <ul class="ul-1">
+            <li class=""><a href="#">Home</a></li>
+            <li class=""><a href="#">Category</a></li>
+            <li class=""><a href="#">About</a></li>
+            <li class=""><a href="#">Contact</a></li>
+          </ul>
+
+          <ul class="ul-2">
+            <li class="">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i
+                  class="fa-brands fa-facebook fa-lg"
+                  style="color: #001101"
+                ></i
+              ></a>
+            </li>
+            <li class="">
+              <a href="https://twitter.com/" target="_blank"
+                ><i
+                  class="fa-brands fa-twitter fa-lg"
+                  style="color: #001101"
+                ></i
+              ></a>
+            </li>
+            <li class="">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i
+                  class="fa-brands fa-instagram fa-lg"
+                  style="color: #001101"
+                ></i
+              ></a>
+            </li>
+            <li class="">
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i
+                  class="fa-brands fa-youtube fa-lg"
+                  style="color: #001101"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer">
+          <p>© 2022 Monito. All rights reserved.</p>
+          <img src="/Monito-images/icons/logo.png" alt="" />
+          <span>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

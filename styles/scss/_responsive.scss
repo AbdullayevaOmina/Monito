@@ -1,0 +1,221 @@
+$desktop: 1440px;
+$tablet: 768px;
+$mobile: 375px;
+
+@media (max-width: $tablet) {
+  .container,
+  .birnima {
+    width: 700px;
+  }
+
+  header#main-header {
+    nav.container {
+      ul.main-nav,
+      .nav-search,
+      .nav-link {
+        display: none;
+      }
+
+      img {
+        width: 52px;
+      }
+
+      .s-dropdown {
+        display: block;
+      }
+
+      .dropdown {
+        display: none;
+      }
+    }
+  }
+
+  section#new {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+      .card {
+        grid-column: span 1;
+      }
+    }
+  }
+
+  section#products {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+      .card {
+        grid-column: span 1;
+      }
+    }
+  }
+
+  section#knowladge {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+      .card {
+        grid-column: span 1;
+      }
+      .none {
+        display: none;
+      }
+    }
+  }
+
+  section#adoptation {
+    display: none;
+  }
+
+  section#partners {
+    .birnima,
+    .partners-showcase {
+      display: none;
+    }
+  }
+
+  section#hero {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  section#explore {
+    .container {
+      width: 572px;
+      height: 640px;
+      flex-shrink: 0;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+
+      .right {
+        grid-column: span 1;
+        position: absolute;
+        top: 0;
+        text-align: center;
+      }
+      .explore-img {
+        grid-column: span 1;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+
+  footer#footer {
+    .footer-registr {
+      display: block;
+      p {
+        text-align: center;
+      }
+    }
+
+    .footer-list {
+      display: inline-block;
+      .ul-2 {
+        padding: 15px;
+        justify-content: center;
+      }
+    }
+
+    .footer {
+      display: grid;
+      
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .container,
+  .birnima {
+    width: 350px;
+  }
+
+  header#main-header {
+    nav.container {
+      ul.main-nav,
+      .nav-search,
+      .nav-link {
+        display: none;
+      }
+
+      img {
+        width: 52px;
+      }
+      .s-dropdown {
+        display: block;
+      }
+
+      .dropdown {
+        display: none;
+      }
+    }
+  }
+
+  section#new {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+      .card {
+        grid-column: span 1;
+      }
+    }
+  }
+
+  section#products {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+      .card {
+        grid-column: span 1;
+      }
+    }
+  }
+
+  section#knowladge {
+    .container {
+      grid-template-rows: repeat(3, fr);
+      grid-template-rows: 3;
+      .card {
+        grid-column: span 1;
+      }
+      .none {
+        display: block;
+      }
+    }
+  }
+
+  section#adoptation {
+    display: none;
+  }
+
+  section#partners {
+    .birnima,
+    .partners-showcase {
+      display: none;
+    }
+  }
+
+  section#hero {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  section#explore {
+    .container {
+      width: 572px;
+      height: 640px;
+      flex-shrink: 0;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+
+      .right {
+        grid-column: span 1;
+        position: absolute;
+        top: 0;
+        text-align: center;
+      }
+      .explore-img {
+        grid-column: span 1;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.loader {
+  position: fixed;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $mon-yellow-40;
+
+  animation: nones 3s linear 3s 1 both;
+}
+
+.spinner {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border-top: 10px solid rgb(81, 76, 76);
+  animation: spin 3s linear infinite;
+}
+
+@keyframes nones {
+  from {
+    display: flex;
+  }
+  to {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1000deg);
+  }
+}

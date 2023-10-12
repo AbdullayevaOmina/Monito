@@ -1,0 +1,13 @@
+section#new {
+  h2 {
+    color: $dark-blue;
+    text-transform: capitalize;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-block: 20px;
+  }
+}

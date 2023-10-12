@@ -1,0 +1,51 @@
+section#products {
+  h3 {
+    color: $netural-color-100;
+    font-family: $Gilroy-Bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  span {
+    color: $netural-color-60;
+    font-family: $Gilroy-Bold;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+  }
+
+  p {
+    color: $netural-color-100;
+    font-family: $Gilroy-Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-block: 20px;
+  }
+  .dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 10px;
+    background: $dark-blue;
+  }
+
+  .product-card-btn {
+    background-color: $mon-yellow-40;
+    display: flex;
+    padding: 6px 10px 4px 10px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 8px;
+  }
+}

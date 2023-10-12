@@ -1,0 +1,35 @@
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.btn {
+  all: unset;
+  box-sizing: border-box;
+  padding: 14px 28px;
+  background: $dark-blue;
+  display: inline-block;
+  color: $netural-color-00;
+  border-radius: 80px;
+}
+
+.temp-btn {
+  display: flex;
+  background-color: $netural-color-00;
+  color: $dark-blue;
+  border: 2px solid $dark-blue;
+  gap: 15px;
+
+}
+
+.temp-btn:hover {
+  background-color: $dark-blue;
+  color: $netural-color-00;
+}
+
+.birnima {
+  display: flex;
+  width: 1180px;
+  margin: 50px auto;
+  justify-content: space-between;
+}

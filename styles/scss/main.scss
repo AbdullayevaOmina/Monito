@@ -1,0 +1,22 @@
+@import "base/variables";
+@import "base/loader";
+@import "base/reset";
+@import "base/utils";
+
+// partials
+@import "partials/header";
+@import "partials/hero";
+@import "partials/new";
+@import "components/card";
+@import "partials/explore";
+@import "partials/products";
+@import "partials/partners";
+@import "partials/adopation";
+@import "partials/knowladge";
+@import "partials/footer";
+
+// responsive
+@import "responsive";
+
+
+
